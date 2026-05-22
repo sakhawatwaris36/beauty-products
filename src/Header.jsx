@@ -8,11 +8,11 @@ export default function Header() {
     const toggleMenu = () => setIsOpen(!isOpen)
 
     const navItems = [
-        { label: 'HOME', path: '/' }, 
+        { label: 'Home', path: '/' }, 
         { label: 'Product', path: '/Product' },
         { label: 'About', path: '/About' },
-        { label: 'CONTACT', path: '/contact' },
-        { label: 'HELP', path: '/help' },
+        { label: 'Contact', path: '/Contact' },
+        { label: 'Help', path: '/Help' },
 
     ]
 
