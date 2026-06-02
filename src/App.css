@@ -368,11 +368,11 @@ header {
         grid-template-columns: 1fr ;
         
         padding: 5rem;
-        padding-top: 8rem;
+        padding-top: 10rem;
         
     }
     .wel{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .our{
         font-size: 2rem;
@@ -382,15 +382,16 @@ header {
         font-size: 2rem;
     }
     .pho{
-        width: 20rem;
-        height: 20rem;
+        width: 15rem;
+        height: 15rem;
     }
     .pra{
         font-size: 13px;
         padding-bottom: 20px;
     }
     .img{
-        width: 20rem;
+        width: 15rem;
+        padding-left: 20px;
     }
 }
 
@@ -450,15 +451,25 @@ display: flex;
     font-size: 2rem;
     -webkit-text-stroke: 1px ;
 }
+.c2{
+    padding: 20px;
+}
 .infor p{
     -webkit-text-stroke: 1px;
 } 
+.infor{
+    font-size: 1.5rem ;
+}
 .mainin{
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: 1.5rem;
 }
 .mainin p{
     padding-top: 3px;
+}
+.mainin h2{
+  font-size: 20px;
+ 
 }
 
 
