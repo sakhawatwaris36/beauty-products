@@ -6,6 +6,7 @@ import img1 from './assets/pic1.webp'
 import img2 from './assets/pic2.webp'
 import img3 from './assets/pic3.webp'
 import img4 from './assets/pic4.jpg'
+import img7 from './assets/cream.jpg'
 
 
 import img6 from './assets/pic6.webp'
@@ -50,7 +51,7 @@ export default function Hero() {
 
         <div className="h2">
           <div className="pho">
-            <img src="cream.jpg" alt="" className="img fade-in delay-2" />
+            <img src={img7} alt="" className="img fade-in delay-2" />
           </div>
         </div>
 
